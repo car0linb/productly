@@ -6,9 +6,10 @@ body{
     background-color: white;
     max-width: 1400px;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center; */
+    font-family: 'Poppins', sans-serif;
 }
+
+
 
 header{
     display: flex;
@@ -71,11 +72,20 @@ li {
     border: none;
 }
 
+/* .main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
 .container{
     max-width: 1400px;
     height: auto;
     display: flex;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    /* flex-wrap: wrap; */
 }
 
 .superpowers{
@@ -110,6 +120,93 @@ li {
     color: #544837;
 }
 
-.super-image{
-    
+.tools{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.title-tools{
+    width: 538px;
+    height: 108px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1095px;
+    height: 204px;
+    margin: 20px;
+}
+
+.btn-tools{
+    width: 175px;
+    height: 53px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+}
+/* .large {
+    width: 175px;
+    height: 53px;
+    display: flex;
+    flex-wrap: nowrap;
+} */
+
+.design{
+    width: 1110px;
+    height: 574px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.design-text{
+    width: 486px;
+    height: 531px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.heading-design{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.secondary-heading{
+    font-style: normal;
+    font-weight: bold;
+    color: #2F281E;
+}
+
+.design-img{
+    transform: translateX(145px);
+}
+
+.product{
+    display: flex;
+    width: 1121px;
+    height: 521px;
 }
