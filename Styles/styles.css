@@ -6,6 +6,8 @@ body{
     background-color: white;
     max-width: 1400px;
     margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
 }
 
 header{
@@ -67,4 +69,47 @@ li {
     background-color: #FF9900;
     color: white;
     border: none;
+}
+
+.container{
+    max-width: 1400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.superpowers{
+    max-width: 1126px;
+    max-height: 496px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.super-title{
+    max-width: 518px;
+    max-height: 108px;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+    color: #2F281E;
+}
+
+.super-info{
+    max-width: 458px;
+    max-height: 95px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+}
+
+.super-image{
+    
 }
