@@ -253,3 +253,13 @@ p{
     display: flex;
     flex-direction: column;
 }
+
+.footer-box{
+    width: 1109px;
+    height: 308px;
+}
+
+.nav-foot
+    {
+        display: flex;
+    }
