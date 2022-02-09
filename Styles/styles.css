@@ -81,7 +81,7 @@ header{
 
 .container{
     max-width: 1400px;
-    height: auto;
+    height: 800px;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -252,24 +252,49 @@ p{
     width: 486px;
     display: flex;
     flex-direction: column;
+    /* flex-wrap: nowrap; */
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 20px;
 }
 
 footer{
     max-width: 1400px;
-    height: 400px;
+    max-height: 800px;
     display: flex;
     margin: 20px;
+    justify-content: center;
     
 }
 
 .footer-box{
+    padding: 20px;
     width: 1109px;
     height: 308px;
     margin: 20px;
     border-top: solid lightgrey 1px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+
+.fotter-img{
+    position: absolute;
+    top: 102px;
+    left: 10px;
 }
 
 .nav-foot
-    {
+    {   max-height: 205px;
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .foot-ul{
+        
+        list-style: none;
+        
     }
