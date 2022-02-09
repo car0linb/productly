@@ -254,9 +254,19 @@ p{
     flex-direction: column;
 }
 
+footer{
+    max-width: 1400px;
+    height: 400px;
+    display: flex;
+    margin: 20px;
+    
+}
+
 .footer-box{
     width: 1109px;
     height: 308px;
+    margin: 20px;
+    border-top: solid lightgrey 1px;
 }
 
 .nav-foot
