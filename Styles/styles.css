@@ -73,6 +73,14 @@ header{
     border: none;
 }
 
+.fa-solidfa-play{
+    color:#FF9900
+}
+
+a{
+    color:#FF9900
+}
+
 /* .main{
     display:flex;
     flex-direction: column;
