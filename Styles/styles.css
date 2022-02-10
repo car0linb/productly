@@ -81,7 +81,7 @@ header{
 
 .container{
     max-width: 1400px;
-    height: 800px;
+    min-height: 700px;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -91,11 +91,12 @@ header{
 
 .superpowers{
     max-width: 1126px;
-    max-height: 496px;
+    min-height: 496px;
     display: flex;
-    font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    /* margin: 30px; */
     flex-direction: column;
+    /* justify-content: center; */
+    /* position: relative; */
 }
 
 .super-title{
@@ -119,6 +120,16 @@ header{
     line-height: 28px;
     /* or 156% */
     color: #544837;
+}
+
+
+.btn-video{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /* position:absolute; */
+    justify-content: flex-start;
+    
 }
 
 .tools{
